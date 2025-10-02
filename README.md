@@ -1,6 +1,18 @@
 # Projeto Vestigium
 Reconstrução de artes e textos antigos com GANs e Modelos de Difusão
 
+
+- -------------------------------------------------------------------------------------------------------
+
+⚠️ O dataset não está armazenado diretamente neste repositório para não ultrapassar os limites do GitHub.
+
+Para baixá-lo e extraí-lo automaticamente, siga os passos abaixo:
+
+```bash
+pip install gdown
+python download_dataset.py
+```
+---------------------------------------------------------------------------------------------------------
 ### 1. Contextualização e Justificativa
 Ao longo da história, inúmeras obras de arte, manuscritos e inscrições foram perdidos, danificados ou preservados de forma fragmentada. Muitos desses registros são cruciais para compreender culturas antigas, religiões, modos de vida, técnicas artísticas e linguagens que já não existem em sua forma original.
 
@@ -65,3 +77,4 @@ O projeto combina aprendizado profundo (deep learning) com curadoria especializa
 - Simulações arqueo-urbanísticas (como eram cidades inteiras em 3D).
 - Aplicação em línguas mortas (auxiliando na tradução de fragmentos incompletos).
 - Uso em justiça histórica, permitindo a preservação digital de obras destruídas em guerras recentes.
+
