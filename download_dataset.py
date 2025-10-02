@@ -5,7 +5,7 @@ import os
 
 file_id = "1_P7Td9NzkV-7hj5O8k-C-OW7UGN5IjKC"
 url = f"https://drive.google.com/uc?id={file_id}"
-output = "dataset.zip"
+output = "paintings_dataset.zip"
 
 # Baixar 
 if not os.path.exists("dataset"):
